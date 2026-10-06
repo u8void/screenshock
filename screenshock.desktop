@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=screenshock
+Comment=Take a screenshot and annotate it
+Exec=screenshock
+Icon=camera-photo
+Categories=Utility;Graphics;
+Terminal=false

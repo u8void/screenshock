@@ -1,0 +1,11 @@
+[Unit]
+Description=screenshock screenshot daemon
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=%h/.local/bin/screenshock --daemon
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target

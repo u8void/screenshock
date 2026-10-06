@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=screenshock daemon
+Exec=screenshock --daemon
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
